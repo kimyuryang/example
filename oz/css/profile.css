@@ -1,0 +1,142 @@
+
+
+.navi > li:nth-child(3){
+  color:#630492;
+}
+
+
+/*titleBox*/
+section{
+  width: 100%;
+  min-width:1500px;
+  height:160px;
+  background-color: #424242;
+  color:#fff;
+  padding:40px 0 40px 0;
+  box-sizing: border-box;
+}
+.menu{
+  width:1100px;
+  margin:auto;
+}
+
+.title{
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-align: center;
+  margin-bottom:30px;s
+}
+.menu> ul{
+  width:550px;
+  margin:auto;
+}
+.menu> ul> li{
+  float:left;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-right: 50px;
+}
+.gnb{
+  width:1100px;
+  margin:auto;
+}
+.gnb > a i, span{
+  color:rgb(204, 203, 203);
+  margin:20px 0 10px 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.gnb> h1{
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin:10px 0 20px 5px;
+  color:#666;
+}
+.line{
+  width:1100px;
+  margin: auto;
+}
+.bar{
+  width:550px;
+  height: 7px;
+  background-color: black;
+  float:right;
+}
+/*article*/
+article{
+  width:1100px;
+  margin:auto;
+  position: relative;
+}
+article>.wrap{
+  display: flex;
+}
+/*childBox*/
+.child{
+  width:520px;
+  height: 550px;
+}
+/*nameBox*/
+.name{
+  padding: 120px 0 30px 60px;
+  box-sizing: border-box;
+  color:#333;
+}
+.name> h5{
+  font-weight: normal;
+  margin-bottom:5px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.name> h2{
+  font-size: 35px;
+  margin-bottom: 150px;
+}
+.name> a{
+ top:50px; left: 90%;
+ font-size: 35px;
+ color:#999;
+ position:absolute;
+}
+.name> .youtube{
+  margin-left:40px;
+}
+.name> .box{
+  width:500px;
+  margin-top:50px;
+}
+.name> .box> p{
+  font-size: 20px;
+  margin-bottom:10px;
+}
+b{
+  margin-right: 30px;
+  font-weight: normal;
+}
+
+/*activities*/
+.act{
+  width:100%;
+  min-width: 1500px;
+  height: 1000px;
+  background-color: #bcbcbc;
+  padding-top:80px;
+  box-sizing: border-box;
+}
+.actBox{
+  width:300px;
+  margin:auto;
+  font-size: 18px;
+  line-height: 50px;
+}
+.title> h3{
+  letter-spacing: 8px;
+  margin-top:60px;
+  margin-bottom: 50px;
+  
+}
+.actBox> .txt{
+  width: 500px;
+  margin-left:75px;
+  
+}

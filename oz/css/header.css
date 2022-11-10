@@ -1,0 +1,31 @@
+header{
+  min-width:1200px;
+  height:80px;
+  background-color: #fff;
+}
+header> .wrap{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-top:15px;
+  box-sizing: border-box;
+}
+.logo{
+  margin-left: 100px;
+}
+.navi{
+  display:flex;
+  margin-right: 90px;
+}
+.navi> li{
+  margin-left:30px;
+  color:#282828;
+  font-size: 20px;
+  margin-top:20px;
+  box-sizing: border-box;
+  font-family:"Montserrat";
+}
+.navi> li:hover{
+  color:#41065f;
+  border-bottom: 2px solid #41065f;
+}
