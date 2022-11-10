@@ -1,0 +1,108 @@
+.navi > li:nth-child(1){
+  color:#630492;
+}
+
+/*banner*/
+.banner{
+  width:1500px;
+  height: 340px;
+  background:url(../img/sub_oz.png) center/cover;
+  margin:auto;
+  position: relative;
+}
+.titleBox{
+  width:700px;
+  height: 340px;
+  color:#fff;
+  background: rgb(8,8,8);
+  background: linear-gradient(90deg, rgba(8,8,8,0.5) 0%, rgba(64,64,64,0.5) 52%, rgba(184,186,186,0.5) 91%, rgba(244,247,247,0.1) 100%);
+  font-family: "Montserrat";
+  position: absolute;
+  z-index: 1;
+  padding:80px 90px;
+  box-sizing: border-box;
+}
+.titleBox > h1{
+  font-size: 70px;
+}
+.titleBox > p{
+  margin:15px 0 0 10px;
+  font-size: 18px;
+}
+
+/*경영txt*/
+.txtBox{
+  width:1500px;
+  margin: auto;
+  padding:70px 195px 70px 195px;
+  box-sizing: border-box;
+}
+.txtBox > a i, span{
+  color:rgb(204, 203, 203);
+  margin-left:10px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.txtBox > h1{
+  font-size: 30px;
+  margin-top: 30px;
+  font-weight: normal;
+}
+.txtBox > h3{
+  font-size: 25px;
+  font-weight: normal;
+  margin: 30px 0 20px 0;
+}
+.txtBox > h4{
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.txtBox > p{
+  margin: 20px 0 40px 0;
+}
+
+/*사업분야*/
+.business{
+  width:1500px;
+  margin: auto;
+  color: #434343;
+}
+.business > .title{
+  width:1500px;
+  height: 75px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+.title > p > b{
+  color:rgb(250, 151, 168);
+}
+.bgBox{
+  width:500px;
+  height:430px;
+  margin: auto;
+  position:relative;
+}
+.gray{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 1s linear;
+  cursor: pointer;
+}
+.bgBox:hover .gray{
+  opacity: 1;
+}
+
+.txt{
+  text-align: center;
+  font-size: 20px;
+  margin: 90px 0 180px 0;
+}
+.txt > p{
+  font-size: 22px;
+  margin-top:30px;
+}
