@@ -1,0 +1,4 @@
+/*aos*/
+$(function(){
+  AOS.init();
+});
