@@ -1,0 +1,125 @@
+@font-face{
+  font-family: 'cafe24dongdong';
+  src:url(../font/cafe24dongdong.ttf) format('truetype');
+} 
+
+/*event*/
+#event{
+  min-width:1300px;
+  height: 870px;
+  background-color: #f4f6f5;
+}
+#event > .wrap{
+  width:1440px;
+  margin: auto;
+  padding-top:120px;
+  position: relative;
+}
+.main_bg{
+  width:1080px;
+  height: 660px;
+  background: url(../img/event.jpg) center/cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main_bg > p{
+  position:absolute;
+  top:80%; right:360px;
+  font-size: 70px;
+}
+.main_bg > p:nth-child(2){
+  position:absolute;
+  top:90%; right:10px;
+}
+
+/*sns_bg*/
+#sns_bg{
+  width:100%;
+}
+#sns_bg > .wrap{
+  width: 1440px;
+  margin:auto;
+}
+.bg{
+  width:1440px;
+}
+.txt1{
+  width:1440px;
+  height: 250px;
+  background-color: #f4f6f5;
+  margin-top:-10px;
+  text-align: center;
+  padding:50px 0 10px 0;
+  box-sizing: border-box;
+  line-height: 25px;
+}
+.txt1 > h1{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.txt1 > h1 > b{
+  color: green;
+}
+.txt2{
+  min-width:1440px;
+  height: 250px;
+  background-color: #ffcccc;
+  margin-top:-10px;
+  padding:45px 0 10px 0;
+  box-sizing: border-box;
+  line-height: 25px;
+}
+.txt2 > .wrap2{
+  width:1000px;
+  margin: auto;
+}
+.left_box{
+  width: 500px;
+  float:left;
+  text-align: center;
+}
+.right_box{
+  width: 500px;
+  float:left;
+  text-align: center;
+}
+.txt2 h3{
+  width:110px;
+  height: 30px;
+  border-radius: 1em;
+  outline: 2px solid #fda5a5;
+  margin:auto;
+  padding-top:5px;
+}
+.txt2 p{
+  margin-top:20px;
+}
+.txt2 b{
+  color: green;
+}
+
+/*insta*/
+#insta{
+  width:100%;
+  height: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#insta > .wrap{
+  width:1050px;
+  margin: auto;
+}
+.icon{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.insta_box{
+  width:1100px;
+}
+.insta_box > img{
+  margin:5px 5px;
+  transition: all 0.3s linear;
+}
+.insta_box > img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}

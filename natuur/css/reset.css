@@ -1,0 +1,13 @@
+@font-face{
+  font-family: 'handotum';
+  src:url(../font/handotum.ttf)format('truetype');
+}
+
+*{margin:0; padding:0;}
+ul{list-style:none;}
+a{text-decoration: none; color:inherit;}
+.clearfix::after{/*클리어픽스핵*/
+  content:"";
+  display:block;
+  clear:both;
+}

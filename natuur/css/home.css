@@ -1,0 +1,276 @@
+@font-face{
+  font-family: 'cafe24dongdong';
+  src:url(../font/cafe24dongdong.ttf) format('truetype');
+} 
+
+/*slide banner*/
+#slide-banner{
+  min-width:1300px;
+  height:900px;
+  overflow: hidden;
+  position:relative;
+}
+.imgGroup{
+  width:300%;
+  position:absolute;
+}
+.imgGroup> img{
+  width:1920px;
+  float:left;
+  position:relative;
+}
+.goBtn{
+  width:250px;
+  height: 65px;
+  position:absolute;
+  left:50%;
+  margin-left:500px;
+  top:15%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border:none;
+  cursor:pointer;
+  color:#045139;
+  font-size: 20px;
+  z-index: 999;
+  position: fixed;
+}
+.goBtn:hover{
+  font-weight: bold;
+}
+
+/*title banner*/
+.title{
+  min-width: 1300px;
+  height: 300px;
+  background-color: #045139;
+  margin:25px auto 0;
+}
+.title > img{
+  width: 1920px;
+  display: block;
+  margin: auto;
+}
+
+/*video*/
+#video{
+  min-width:1300px;
+  height: 950px;
+  padding: 100px 0 30px 0;
+  box-sizing: border-box;
+}
+#video> .wrap{
+  width:1920px;
+  margin:auto;
+
+}
+#video .titleBox{
+  width:360px;
+  margin:auto;
+  display: flex;
+  color:#105318;
+  margin-bottom: 45px;
+}
+#video .titleBox b{
+  color:#111
+}
+.titleBox> li:nth-child(2){
+  margin:0 10px;
+  font-size: 18px;
+}
+.videoBox{
+  width:1280px;
+  margin: auto;
+  border: none;
+}
+
+/*menu*/
+#menuBox{
+  min-width:1300px;
+  height: 820px;
+  padding: 100px 0 30px 0;
+  box-sizing: border-box;
+  margin-top:100px;
+  position: relative;
+}
+#menuBox> .bgBox{
+  width: 100%;
+  height: 550px;
+  margin-top:40px;
+  background-color: #eaddd4;
+}
+#menuBox> .wrap{
+  width:100%;
+  margin:auto;
+  position: absolute;
+  top:0; left:0;
+  z-index: 1;
+}
+#menuBox .titleBox{
+  width:215px;
+  margin:auto;
+  display: flex;
+  color:#105318;
+  margin-bottom: 45px;
+}
+#menuBox .menu{
+  width:844px;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+#menuBox .menu img{
+  cursor: pointer;
+}
+.menu:nth-child(5){
+  margin-right: 30px;
+}
+/*ingredient*/
+#ingredient{
+  min-width:1300px;
+  padding: 10px 0 30px 0;
+  box-sizing: border-box;
+}
+#ingredient> .wrap{
+  min-width:1920px;
+  margin:auto;
+}
+#ingredient .titleBox{
+  width:250px;
+  margin:auto;
+  display: flex;
+  color:#105318;
+  margin-bottom: 45px;
+}
+.titleBox> li:nth-child(2){
+  margin:0 10px;
+  font-size: 18px;
+}
+.contain{
+  width:950px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+.box{
+  width:260px;
+  height:360px;
+  float:left;
+  margin:25px 25px;
+  position:relative;
+  overflow:hidden;
+  cursor: pointer;
+}
+.txt{
+  position:absolute;
+  top:0; left:0; bottom:0; right:0;
+  background-color:rgba(0,0,0,0.5);
+  padding:270px 10px 10px 10px;
+  box-sizing: border-box;
+  color:#fff;
+  border-radius: 1rem;
+  transform:translateY(100%) rotate(-180deg);
+  transition:0.5s;
+  font-size: 16px;
+}
+.txt> h3{
+  font-size: 18px;
+}
+.txt> h2{
+  color:#51d75d;
+  font-size: 18px;
+  border-bottom:2px solid #fff;
+  line-height: 40px;
+}
+.box:hover> .txt{
+  transform:translateY(0) rotate(0deg);
+}
+
+/*process*/
+#process{
+  min-width:1300px;
+  padding: 10px 0 30px 0;
+  box-sizing: border-box;
+  position: relative;
+}
+#process> .wrap{
+  width:100%;
+  margin:auto;
+  position: absolute;
+  top:50px; left:0;
+  z-index: 1;
+}
+#process .titleBox{
+  width:180px;
+  margin:auto;
+  display: flex;
+  color:#105318;
+  margin-bottom: 45px;
+}
+#process> li:nth-child(2){
+  margin:0 10px;
+  font-size: 18px;
+}
+#process> .bgBox{
+  width:100%;
+  height: 700px;
+  background-color: #dceabf;
+}
+.process{
+  margin: auto;
+  width:1200px;
+  height:510px;
+  background:url('../img/Process1.png') no-repeat;
+  transition: all 3s;
+}
+.process:hover{
+  background:url('../img/Process2.png') no-repeat;
+  transition: all 2s;
+  cursor: pointer;
+}
+.natuur{
+  position: absolute;
+  top:-600px; left:72%;
+}
+
+/*inform*/
+#inform{
+  min-width: 1300px;
+}
+#inform> .wrap{
+  width:350px;
+  margin: auto;
+}
+#inform h1{
+  text-align: center;
+  margin:70px 0 80px 0;
+  font-size: 40px;
+  font-family: 'cafe24dongdong'; 
+}
+.icon> a{
+  margin-right: 25px;
+}
+.icon> a:last-child{
+  margin-right: 0;
+}
+#inform hr{
+  background-color: #045139;
+  height: 1px;
+  margin-top: 150px;
+}
+#inform> ul{
+  width:1320px;
+  margin: auto;
+  display: flex;
+}
+#inform> ul> li{
+  margin: 50px 50px 50px 0;
+  cursor: pointer;
+}
+#inform> ul> li:nth-child(5){
+  color:#105318;
+}
+#inform> ul> li:last-child{
+  margin-right: 0;
+}
