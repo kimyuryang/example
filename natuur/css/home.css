@@ -6,7 +6,9 @@
 /*slide banner*/
 #slide-banner{
   min-width:1300px;
+  width: 1920px;
   height:900px;
+  margin: auto;
   overflow: hidden;
   position:relative;
 }
@@ -17,15 +19,13 @@
 .imgGroup> img{
   width:1920px;
   float:left;
-  position:relative;
 }
 .goBtn{
   width:250px;
   height: 65px;
   position:absolute;
-  left:50%;
-  margin-left:500px;
-  top:15%;
+  top:15%; right: 5%;
+  transform: translateX(-15%,-5%);
   background-color: rgba(255, 255, 255, 0.5);
   border:none;
   cursor:pointer;
@@ -99,10 +99,10 @@
   background-color: #eaddd4;
 }
 #menuBox> .wrap{
-  width:100%;
-  margin:auto;
+  width:1920px;
   position: absolute;
-  top:0; left:0;
+  top:0; left:50%;
+  transform: translateX(-50%);
   z-index: 1;
 }
 #menuBox .titleBox{
@@ -126,13 +126,9 @@
   margin-right: 30px;
 }
 /*ingredient*/
-#ingredient{
-  min-width:1300px;
-  padding: 10px 0 30px 0;
-  box-sizing: border-box;
-}
+
 #ingredient> .wrap{
-  min-width:1300px;
+  width:1920px;
   margin:auto;
 }
 #ingredient .titleBox{
@@ -189,14 +185,14 @@
 
 /*process*/
 #process{
-  min-width:1300px;
+  width:1920px;
   padding: 10px 0 30px 0;
   box-sizing: border-box;
   position: relative;
+  margin: auto;
 }
-#process> .wrap{
-  min-width:100%;
-  margin:auto;
+#process > .wrap{
+  width:1920px;
   position: absolute;
   top:50px; left:0;
   z-index: 1;
@@ -231,15 +227,16 @@
 }
 .natuur{
   position: absolute;
-  top:-600px; left:72%;
+  top:-590px; right:300px;
 }
 
 /*inform*/
 #inform{
-  min-width: 1300px;
+  width:1920px;
+  margin: auto;
 }
 #inform> .wrap{
-  width:350px;
+  width:1920px;
   margin: auto;
 }
 #inform h1{
@@ -260,7 +257,7 @@
   margin-top: 150px;
 }
 #inform> ul{
-  width:1320px;
+  width:1920px;
   margin: auto;
   display: flex;
 }
