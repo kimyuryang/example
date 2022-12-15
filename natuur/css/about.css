@@ -102,7 +102,7 @@
 }
 .tea > .green3 > img{
   position: absolute;
-  top:1356px; left:920px;
+  top:1356px; left:970px;
   animation:move 2s infinite ease-in-out;
 }
 @keyframes move{
