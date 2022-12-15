@@ -85,15 +85,17 @@
 
 /*menu*/
 #menuBox{
-  width:100%;
+  width:1920px;
   height: 820px;
+  margin: auto;
   padding: 100px 0 30px 0;
   box-sizing: border-box;
   margin-top:100px;
   position: relative;
 }
 #menuBox> .bgBox{
-  width: 100%;
+  width: 1920px;
+  margin: auto;
   height: 550px;
   margin-top:40px;
   background-color: #eaddd4;

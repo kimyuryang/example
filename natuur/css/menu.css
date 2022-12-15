@@ -5,8 +5,9 @@
 
 /*tilte_banner*/
 #title{
-  min-width:1300px;
+  width:1920px;
   height: 450px;
+  margin: auto;
   background-color: #d8e9db;
   position: relative;
   z-index: -999;
@@ -60,18 +61,22 @@
 
 /*menu_title*/
 #menu_title{
-  min-width:1300px;
-  height: 50px;
+  width:1920px;
+  height: 150px;
+  margin: auto;
 }
 #menu_title > .wrap{
   width:800px;
+  height: 150px;
+  padding: 50px 0;
+  box-sizing: border-box;
   margin: auto;
 }
 .m_title p{
  color:#094411;
  float: left;
  font-size: 20px;
- margin: 40px 40px 100px 40px;
+ margin: auto 40px;
 }
 .m_title p:hover{
   color:#ffb9b9;
@@ -127,14 +132,11 @@
 .next{right: 0;}
 
 /*pint_menu*/
-#pint{
-  min-width: 1300px;
-  text-align: center;
-}
 .title > h1{
   color:#094411;
   font-size:30px;
-  margin:0 0 30px 530px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 .title > h1:hover{
   color:#ffb9b9;
@@ -143,6 +145,7 @@
 }
 .pint_menu{
   width:900px;
+  height: 750px;
   margin: auto;
   padding: 10px 0 40px 50px;
   display: flex;

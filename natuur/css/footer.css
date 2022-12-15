@@ -1,6 +1,7 @@
 /*inform*/
 #inform{
   width: 1920px;
+  margin: auto;
 }
 #inform > .wrap{
   width:350px;
@@ -24,7 +25,7 @@
   margin-top: 150px;
 }
 #inform > ul{
-  width:1320px;
+  width:1400px;
   margin: auto;
   display: flex;
 }
