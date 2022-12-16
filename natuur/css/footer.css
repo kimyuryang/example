@@ -1,6 +1,6 @@
 /*inform*/
 #inform{
-  width: 100%;
+  min-width: 1920px;
   margin: auto;
 }
 #inform > .wrap{
@@ -43,7 +43,7 @@
 
 /*footer*/
 footer{
-  width:100%;
+  min-width:1920px;
   height: 400px;
   margin: auto;
   background-color: #045139;

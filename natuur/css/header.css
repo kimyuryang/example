@@ -1,5 +1,10 @@
+header{
+  min-width: 1920px;
+  position: relative;
+  margin: auto;
+}
 nav{
-  width:750px;
+  width:1920px;
   position: absolute;
   z-index: 999;
   color:#fff;

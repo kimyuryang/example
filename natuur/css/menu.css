@@ -83,6 +83,10 @@
 }
 
 /*best*/
+#best{
+  min-width:1920px;
+  margin: auto;
+}
 .contain{
   width:1080px;
   height:400px;
@@ -95,16 +99,14 @@
   width:400px;
   display: flex;
   color:#105318;
-  margin: 0  0 80px 350px;
+  margin: auto 400px;
 }
 .titleBox > h1{
-  margin:0 20px;
-}
-.titleBox > img{
-  margin-top:5px;
+  margin:3px 20px 40px 20px;
 }
 .contain > .wrap{
   width:2160px;
+  margin: auto;
   position:absolute;
   display: flex;
   justify-content: space-around;
@@ -132,6 +134,11 @@
 .next{right: 0;}
 
 /*pint_menu*/
+#pint{
+  width: 1920px;
+  margin: auto;
+  margin-top: -80px;
+}
 .title > h1{
   color:#094411;
   font-size:30px;

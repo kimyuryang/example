@@ -5,7 +5,7 @@
 
 /*event*/
 #event{
-  width:100%;
+  min-width:1920px;
   height: 870px;
   margin: auto;
   background-color: #f4f6f5;
@@ -29,7 +29,8 @@
 
 /*sns_bg*/
 #sns_bg{
-  width:100%;
+  min-width:1920px;
+  margin: auto;
   padding-top: 50px;
   box-sizing: border-box;
 }
@@ -97,7 +98,8 @@
 
 /*insta*/
 #insta{
-  width:100%;
+  min-width:1920px;
+  margin: auto;
   height: 600px;
   padding: 20px;
   box-sizing: border-box;

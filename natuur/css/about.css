@@ -4,14 +4,14 @@
 } 
 
 #about{
-  width: 1920px;
+  min-width: 1920px;
   height: 890px;
   margin: auto;
   background: url(../img/about_main.png) center/cover;
 }
 /*premium*/
 #premium{
-  width:1920px;
+  min-width:1920px;
   height: 900px;
   margin: auto;
   background-color: #f6f6f6;
@@ -102,9 +102,9 @@
   color:#006749;
   margin-top: 10px;  
 }
-.tea > .green3 > img{
+.tea .green3{
   position: absolute;
-  top:1356px; left:970px;
+  top:7%; right:5%;
   animation:move 2s infinite ease-in-out;
 }
 @keyframes move{
@@ -115,7 +115,8 @@
 
 /*porest*/
 #porest{
-  min-width:1300px;
+  min-width:1920px;
+  margin: auto;
   height: 1100px;
   padding:90px 0;
   box-sizing: border-box;
