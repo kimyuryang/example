@@ -4,7 +4,7 @@
   margin: auto;
 }
 #inform > .wrap{
-  width:350px;
+  width:1920px;
   margin: auto;
 }
 #inform h1{
@@ -25,7 +25,7 @@
   margin-top: 150px;
 }
 #inform > ul{
-  width:1400px;
+  width:1310px;
   margin: auto;
   display: flex;
 }
