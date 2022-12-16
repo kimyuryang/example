@@ -128,8 +128,8 @@
   font-size:60px;
   cursor:pointer;
   color:#666;
-  top:57%;
-  transform:translateY(-57%);
+  top:45%;
+  transform:translateY(-45%);
 }
 .next{right: 0;}
 
